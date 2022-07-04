@@ -4,11 +4,9 @@
 
 Geany by default comes with limited support for front-end languages, but its configuration files options enable flexible custom improvements.
 
-This repository is a light set of configuration files and opinionated conventions to streamline front-end development in Geany.
+This repository is a light set of configuration files and opinionated conventions to streamline front-end development in Geany. :gem:
 
 Geany for front-end development is based on the archived [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository by [@trongthanh](https://github.com/trongthanh), but made with a slightly different focus.
-
-Geany for front-end development is under construction. :construction:
 
 ## Installation
 Download Geany for front-end development, and copy the `geany` folder content to the Geany user config directory at `~/.config`:
