@@ -1,4 +1,4 @@
-# Geany for front-end development (v0.2.1)
+# Geany config front-end development (v0.2.1)
 
 [Geany](https://github.com/geany/geany) is an open-source lightweight GUI text editor and IDE, that has been around since 2005.
 
