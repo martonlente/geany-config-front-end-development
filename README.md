@@ -23,6 +23,7 @@ Study the `geany` folder structure's layout, and the configuration files.
 .
 ├── filedefs
 │   ├── filetypes.html
+│   ├── filetypes.LESS.conf
 │   └── filetypes.SCSS.conf
 ├── filetype_extensions.conf
 ├── snippets.conf
@@ -30,6 +31,7 @@ Study the `geany` folder structure's layout, and the configuration files.
     ├── jquery.js.tags
     ├── std.css.tags
     ├── std.js.tags
+    ├── std.less.tags
     ├── std.scss.tags
     └── styles.js.tags
 ```
@@ -39,9 +41,8 @@ Study the `geany` folder structure's layout, and the configuration files.
 ---
 Geany syntax highlighting can be expanded with custom filetypes. Geany for front-end development adds basic syntax highlighting support currently for the following filetypes:
 - `html.twig`
+- `less`
 - `scss`
-
-Support for `less` may be added in future.
 
 ### Autocompletion
 
@@ -52,11 +53,12 @@ Geany offers autocompletion for symbols, words, and snippets.
 
 Geany autocompletion can be expanded with global tags files. Geany for front-end development adds autocompletion symbol support currently for the following languages:
 - CSS
+- LESS
 - JavaScript
 - JQuery
 - SCSS
 
-CSS and SCSS autocompletions are currently in sync with Geany's default CSS syntax highlighting support as of version 1.38. JavaScript and jQuery autocompletion support is ported from [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository, and needs to be updated.
+CSS, LESS and SCSS autocompletions are currently in sync with Geany's default CSS syntax highlighting support as of version 1.38. JavaScript and jQuery autocompletion support is ported from [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository, and needs to be updated.
 
 #### Snippets autocompletion
 Geany autocompletion can be expanded with user-definable snippets. Snippets are small strings which can be replaced or completed to a more complex string or code construct. The default key to start autocompletion is `TAB`. Geany for front-end development improves snippet support currently for the following languages:
