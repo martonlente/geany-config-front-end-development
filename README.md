@@ -102,10 +102,14 @@ Note that some plugins' features overlap.
 
 #### Appearance
 Geany UI loads accordingly to the enabled GTK theme on Linux by deafult. If you prefer a different look (e.g. system with light style, and Geany with a dark appearance), you can prepend the preferred environment variable `GTK_THEME=theme:variant` when launching `geany` from terminal, like this:
-`GTK_THEME=Adwaita:dark geany`
+```bash
+GTK_THEME=Adwaita:dark geany
+```
 
 You can also setup a custom launcher e.g. with [appeditor](https://github.com/donadigo/appeditor) to launch Geany with a custom appearance:
-`env GTK_THEME=Adwaita:dark geany %F`
+```bash
+env GTK_THEME=Adwaita:dark geany %F
+```
 
 ## Contributing
 Pull requests are not yet welcome. For support requests, please open an issue first to discuss what you would like to change.
