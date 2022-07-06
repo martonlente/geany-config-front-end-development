@@ -1,5 +1,7 @@
 # Geany config front-end development (v0.2.1)
 
+> Geany config front-end development is currently archived. Further research might be done in future to improve it.
+
 [Geany](https://github.com/geany/geany) is an open-source lightweight GUI text editor and IDE, that has been around since 2005.
 
 Geany by default comes with limited support for front-end languages, but its configuration files options enable flexible custom improvements.
