@@ -6,10 +6,10 @@ Geany by default comes with limited support for front-end languages, but its con
 
 This repository is a light set of configuration files and opinionated conventions to streamline front-end development in Geany. :gem:
 
-Geany for front-end development is based on the archived [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository by [@trongthanh](https://github.com/trongthanh), but made with a slightly different focus.
+Geany config front-end development is based on the archived [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository by [@trongthanh](https://github.com/trongthanh), but made with a slightly different focus.
 
 ## Installation
-Download Geany for front-end development, and copy the `geany` folder content to the Geany user config directory at `~/.config`:
+Download Geany config front-end development, and copy the `geany` folder content to the Geany user config directory at `~/.config`:
 ```bash
 cp -R geany/* ~/.config
 ```
@@ -37,7 +37,7 @@ Study the `geany` folder structure's layout, and the configuration files.
 ### Syntax highlighting
 
 ---
-Geany syntax highlighting can be expanded with custom filetypes. Geany for front-end development adds basic syntax highlighting support currently for the following filetypes:
+Geany syntax highlighting can be expanded with custom filetypes. Geany config front-end development adds basic syntax highlighting support currently for the following filetypes:
 - `html.twig`
 - `less`
 - `scss`
@@ -49,7 +49,7 @@ Geany offers autocompletion for symbols, words, and snippets.
 
 #### Symbols autocompletion
 
-Geany autocompletion can be expanded with global tags files. Geany for front-end development adds autocompletion symbol support currently for the following languages:
+Geany autocompletion can be expanded with global tags files. Geany config front-end development adds autocompletion symbol support currently for the following languages:
 - CSS
 - LESS
 - JavaScript
@@ -59,7 +59,7 @@ Geany autocompletion can be expanded with global tags files. Geany for front-end
 CSS, LESS and SCSS autocompletions are currently in sync with Geany's default CSS syntax highlighting support as of version 1.38. JavaScript and jQuery autocompletion support is ported from [geany-for-front-end-dev](https://github.com/trongthanh/geany-for-front-end-dev) repository, and needs to be updated.
 
 #### Snippets autocompletion
-Geany autocompletion can be expanded with user-definable snippets. Snippets are small strings which can be replaced or completed to a more complex string or code construct. The default key to start autocompletion is `TAB`. Geany for front-end development improves snippet support currently for the following languages:
+Geany autocompletion can be expanded with user-definable snippets. Snippets are small strings which can be replaced or completed to a more complex string or code construct. The default key to start autocompletion is `TAB`. Geany config front-end development improves snippet support currently for the following languages:
 - HTML
 
 Improvements for JavaScript may be added in future.
